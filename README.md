@@ -11,7 +11,7 @@
 - [Game maths tutorials](http://www.wildbunny.co.uk/blog/vector-maths-a-primer-for-games-programmers/)
 
 ## Contact me
-* Email: bryan.duggan@dit.ie
+* Email: bryan.duggan@tudublin.ie
 * [My website & other ways to contact me](http://bryanduggan.org)
 
 ## Week 1 - Introduction
