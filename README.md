@@ -3,7 +3,7 @@
 [![Video](http://img.youtube.com/vi/NMDupdv85FE/0.jpg)](http://www.youtube.com/watch?NMDupdv85FE)
 
 ## Resources
-- [Class Facebook page](https://www.facebook.com/groups/407619519952058/)
+- [Class Facebook page](https://www.facebook.com/groups/438658600891194/)
 - [Course Notes (out of date!)](https://drive.google.com/open?id=1CeMUWjCUa1Ere2fMmtLz5TCL4O136mxj)
 - [Assignment](assignment.md)
 - [Unity Tutorials](https://unity3d.com/learn/tutorials) 
