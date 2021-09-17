@@ -1,3 +1,19 @@
+# TU856/TU857/TU858/TU984 Games Engines 1 2021-2022
+
+[![Video](http://img.youtube.com/vi/NMDupdv85FE/0.jpg)](http://www.youtube.com/watch?NMDupdv85FE)
+
+## Resources
+- [Class Facebook page](https://www.facebook.com/groups/407619519952058/)
+- [Course Notes (out of date!)](https://drive.google.com/open?id=1CeMUWjCUa1Ere2fMmtLz5TCL4O136mxj)
+- [Assignment](assignment.md)
+- [Unity Tutorials](https://unity3d.com/learn/tutorials) 
+- [GDC Vault](http://www.gdcvault.com/)
+- [Game maths tutorials](http://www.wildbunny.co.uk/blog/vector-maths-a-primer-for-games-programmers/)
+
+## Contact me
+* Email: bryan.duggan@dit.ie
+* [My website & other ways to contact me](http://bryanduggan.org)
+
 ## Week 1 - Introduction
 
 ## Lab
