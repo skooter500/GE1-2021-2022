@@ -21,13 +21,14 @@
 ## Lab
 
 ## Lecture
-- [Slides](https://drive.google.com/file/d/14pWZNf2Z-FX096wCLHt9t6tLorS323-k/view?usp=sharing)
+- [Slides](https://docs.google.com/presentation/d/1cyjd7Nhv0ea-R44LpR6UnuWLC1IJ9OOG/edit?usp=sharing&ouid=112533789876788921065&rtpof=true&sd=true)
 - [Trigonometry Problem Set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
 
 ### Learning Outcomes
 - Install Unity & git for Windows
 - Get Unity running on the lab computers
 - Set up the fork, clone it, merge the upstream, commit and push into your fork
+- Create a little thing in Unity 
 
 ### Instructions
 - Sign up for the [class Facebook page](https://www.facebook.com/groups/247042854008746)
@@ -36,7 +37,7 @@
     - When you launch Unity in the labs, you will get an error about there being no license installed. To get around this you have to log-in to Unity using your credentials and then activate a Unity personal license on the machine.
     - You will also need to go to Edit | Preferences and set the External Script Viewer to be VS Code
 - Create an account on github if you don't already have one and be sure to set up a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) as this is what you will have to use as a password now 
-- Fork the repository for the course
+- Fork the repository for the course (click the fork button above)
 - Clone the repository and cd into the folder  you cloned:
 
 ```bash
