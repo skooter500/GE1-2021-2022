@@ -29,9 +29,12 @@
 
 ### Instructions
 - Sign up for the [class Facebook page](https://www.facebook.com/groups/247042854008746)
-- Install Unity 2019
+- Create a Unity account if you don't already have one
+- Install Unity on your laptop or get Unity going on the lab computers. This process is a little fiddley this year. 
+    - When you launch Unity in the labs, you will get an error about there being no license installed. To get around this you have to log-in to Unity using your credentials and then activate a Unity personal license on the machine.
+- Create an account on github if you don't already have one and be sure to set up a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) as this is what you will have to use as a password now 
 - Fork the repository for the course
-- Clone the repository and cd into the folder  you cloned
+- Clone the repository and cd into the folder  you cloned:
 
 ```
 git clone http://github.com/YOUR_NAME/GE1-2021-2022
@@ -47,4 +50,31 @@ git remote -v
 - If you don't see the upstream remote, you can add it by typing:
 
 ```
+git remote add upstream https://github.com/skooter500/GE1-2021-2022/
+```
+
+- Switch to a new branch
+
+```
+git checkout -b mylab1
+```
+
+- Now launch Unity and see if you can open the scene we made in class today and run it.
+- If you are experienced at using Unity, here is a video of something you can try and make today (click the image for the video):
+
+[![YouTube](http://img.youtube.com/vi/tL6ux8isdgY/0.jpg)](https://www.youtube.com/watch?v=tL6ux8isdgY)
+
+
+I suggest you try and make a single circle of dodecahedrons first and then use a nested loop to make all the circles. You can use the dodecahedron model in the assets folder and you can use ColorMaterial on the dodecahedrons. You will be using the following Unity API calls in your solution:
+
+```C#
+Mathf.Sin(angle)
+Mathf.Cos(angle)
+GameObject.Instantiate()
+transform.Rotate()
+```
+
+You will also need to know about the [Unit circle](https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:trig/x2ec2f6f830c9fb89:unit-circle/v/unit-circle-definition-of-trig-functions-1) and also how to [calculate the circumference of a circle](https://www.wikihow.com/Calculate-the-Circumference-of-a-Circle)
+
+Don't worry if you cant figure it out! It's only the first week and I will do through the solution in the class next week :-)
 
