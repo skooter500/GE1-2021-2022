@@ -28,7 +28,23 @@
 - Find the Unity tutorials
 
 ### Instructions
-- Sign up for the [class Facebook page](https://www.facebook.com/groups/2460751797558448)
-- Install Unity
-- Fork the repository for the course and clone it
-- Check out the [Unity tutorial videos](https://unity3d.com/learn/tutorials)
+- Sign up for the [class Facebook page](https://www.facebook.com/groups/247042854008746)
+- Install Unity 2019
+- Fork the repository for the course
+- Clone the repository and cd into the folder  you cloned
+
+```
+git clone http://github.com/YOUR_NAME/GE1-2021-2022
+cd GE1-2021-2022
+```
+
+- Check to ensure the remotes are setup correctly. You should see both origin and upstream remotes. The origin remote should be the url to your repo and the upstream remote should be the url to my repo
+
+```
+git remote -v
+```
+
+- If you don't see the upstream remote, you can add it by typing:
+
+```
+
