@@ -33,10 +33,6 @@ Your assignment is to create an impressive, beautiful and awe inspiring system i
 
 [2019-2020 Assignment playlist](https://www.youtube.com/watch?v=mSEMEWo5zCM&list=PL1n0B6z4e_E6GaGOHiBdPSW0QzICdGs4X)
 
-Or Child of Eden:
-
-[![YouTube](http://img.youtube.com/vi/ic8r_Z9vS-Q/0.jpg)](https://www.youtube.com/watch?v=ic8r_Z9vS-Q)
-
 You should aim to create the effect of your project through produral means and I encourage you to make everything in this assignment yourself. If you want to use 3D models you should create them yourself. The only exception is audio. If you find a beautiful piece of music that you need for your demo you can go ahead and use it.
 
 Also check out the [Procedural generation reddit forum](https://www.reddit.com/r/proceduralgeneration/)
