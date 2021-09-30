@@ -16,13 +16,65 @@
 * Email: bryan.duggan@tudublin.ie
 * [My website & other ways to contact me](http://bryanduggan.org)
 
-## Week 1 - Introduction
+## Week 1 - Trigonometry & Vectors in Unity
+- [Trigonometry Problem Set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
 
-## Lab
+
+
+
+## Week 1 - Introduction
 
 ## Lecture
 - [Slides](https://docs.google.com/presentation/d/1cyjd7Nhv0ea-R44LpR6UnuWLC1IJ9OOG/edit?usp=sharing&ouid=112533789876788921065&rtpof=true&sd=true)
 - [Trigonometry Problem Set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
+
+## Lab
+
+### Learning Outcomes
+- Build a simple agent with perception
+- Develop computation thinking
+- Use trigonometry
+- Use vectors
+- Use the Unity API
+- Practice C#
+
+Today you will be making this:
+
+[![YouTube](http://img.youtube.com/vi/kC_W1WBB7uY/0.jpg)](http://www.youtube.com/watch?v=kC_W1WBB7uY)
+
+To start, switch to the master branch of your fork, update your forks to get the starter code and create a new branch for your work today:
+
+```bash
+git checkout master
+git pull upstream master
+git checkout -b mylab2
+```
+
+If you are on a lab computer, you might need to clone your forks. I have updated my version of Unity to be the same as the version installed in the labs, so opening the project should be fast now.
+
+Open the scene lab2 to get the starter scene and code for today. You should modify the scripts in the scene so that it does this (click for video):
+
+[![YouTube](http://img.youtube.com/vi/kC_W1WBB7uY/0.jpg)](http://www.youtube.com/watch?v=kC_W1WBB7uY)
+
+
+What is happening:
+- The red tank has a script attached that has radius and numWaypoints fields that control the generation of waypoints in a circle around it. It draws sphere gizmos so you can see where the waypoints will be.
+- The red tank will follow the waypoints starting at the 0th one and looping back when it reaches the last waypoint.
+- The red tank prints the messages using the Unity GUI system to indicate:
+    - Whether the blue tank is in front or behind
+    - Whether the front tank is inside a 45 degree FOV
+    - Use the [Unity reference](unityref.md) to figure out what API's to call!
+
+You will use the following API's in your solution:
+
+```C#
+Quaternion.Slerp
+Quaternion.LookRotation
+Vector3.Normalize
+Vector3.Dot
+Transform.Translate
+```
+
 
 ### Learning Outcomes
 - Install Unity & git for Windows
