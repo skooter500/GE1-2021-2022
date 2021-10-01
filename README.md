@@ -16,16 +16,7 @@
 * Email: bryan.duggan@tudublin.ie
 * [My website & other ways to contact me](http://bryanduggan.org)
 
-## Week 1 - Trigonometry & Vectors in Unity
-- [Trigonometry Problem Set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
-
-
-
-
-## Week 1 - Introduction
-
-## Lecture
-- [Slides](https://docs.google.com/presentation/d/1cyjd7Nhv0ea-R44LpR6UnuWLC1IJ9OOG/edit?usp=sharing&ouid=112533789876788921065&rtpof=true&sd=true)
+## Week 2 - Trigonometry & Vectors in Unity
 - [Trigonometry Problem Set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
 
 ## Lab
@@ -50,7 +41,7 @@ git pull upstream master
 git checkout -b mylab2
 ```
 
-If you are on a lab computer, you might need to clone your forks. I have updated my version of Unity to be the same as the version installed in the labs, so opening the project should be fast now.
+If you are on a lab computer, you will need to clone your forks. I have updated my version of Unity to be the same as the version installed in the labs, so opening the project should be fast now!
 
 Open the scene lab2 to get the starter scene and code for today. You should modify the scripts in the scene so that it does this (click for video):
 
@@ -58,12 +49,32 @@ Open the scene lab2 to get the starter scene and code for today. You should modi
 
 
 What is happening:
-- The red tank has a script attached that has radius and numWaypoints fields that control the generation of waypoints in a circle around it. It draws sphere gizmos so you can see where the waypoints will be.
-- The red tank will follow the waypoints starting at the 0th one and looping back when it reaches the last waypoint.
+- The red tank has a script attached called AITank that has radius and numWaypoints fields that control the generation of waypoints in a circle around it. These waypoints will be stored in a List. (Like an ArrayList in Java). It draws sphere gizmos so you can see where the waypoints will be.
+- The red tank will move from waypoint to waypoint starting at the 0th one and looping back when it reaches the last waypoint.
 - The red tank prints the messages using the Unity GUI system to indicate:
     - Whether the blue tank is in front or behind
     - Whether the front tank is inside a 45 degree FOV
     - Use the [Unity reference](unityref.md) to figure out what API's to call!
+
+I suggest you work on these tasks:
+
+### Task 1
+
+Add code to OnDrawGizmos in the script AITank.cs to draw gizmos for the waypoints. Use sin and cod to calculate the waypoints. Don't add them to the list here, just draw a sphere gizmos at the position where each waypoint should be
+
+### Task 2
+
+Write code in Awake that populates the waypoints List with the waypoints. Use a for loop, sin, cos and ```transform.TransformPoint```. 
+
+### Task 3
+
+Write code in Update to move the AITank towards the current waypoint. When it comes within 1 unit of the waypoint, you should advance to the next waypoint. You can use transform.Translate, transform.Rotate, transform.position =, transform.rotation = Quaternion.LookRotation. Look up the Unity documentation to see what these API's do
+
+### Task 4
+Write code in Update to print whether the player tank is in front or or behind the AI tank
+
+### Task 5
+Write code in Update to print whether the player tank is inside a 45 degree FOV of the AI tank and whether the player tank is in range of the AI tank. In range means that the player tank is < 10 units away from the AI tank
 
 You will use the following API's in your solution:
 
@@ -75,6 +86,14 @@ Vector3.Dot
 Transform.Translate
 ```
 
+
+
+
+## Week 1 - Introduction
+
+## Lecture
+- [Slides](https://docs.google.com/presentation/d/1cyjd7Nhv0ea-R44LpR6UnuWLC1IJ9OOG/edit?usp=sharing&ouid=112533789876788921065&rtpof=true&sd=true)
+- [Trigonometry Problem Set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
 
 ### Learning Outcomes
 - Install Unity & git for Windows
