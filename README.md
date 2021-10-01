@@ -83,6 +83,19 @@ Vector3.Dot
 Transform.Translate
 ```
 
+Bonus Task!
+
+Open the Fish scene and try and make this procedural animation using a harmonic function :-)
+
+[![YouTube](http://img.youtube.com/vi/S8tj3v6dUbU/0.jpg)](http://www.youtube.com/watch?v=S8tj3v6dUbU)
+
+In your solution, you will use the following API's:
+
+```C#
+Mathf.Sin
+Quaternion.AngleAxis
+transform.localRotation
+```
 
 
 
