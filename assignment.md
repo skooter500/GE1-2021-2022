@@ -31,7 +31,7 @@ Becomes:
 
 ## Assignment brief
 
-Your assignment is to create an impressive, beautiful and awe inspiring system in Unity by using procedural generation wherever possible. Paint a picture in code. Your aim is to wow me. It should look like a tech demo or some of the beautiful visuals that you might see at en electronic music event. Check these out for examples:
+Your assignment is to create an impressive, beautiful and awe inspiring system in Unity by using procedural generation. Paint a picture in code. Your aim is to wow me. It should look like a tech demo or some of the beautiful visuals that you might see at an electronic music event. Check these out for examples:
 
 [2020-2021 Assignment playlist](https://www.youtube.com/watch?v=MXm9OmzRe2o&list=PL1n0B6z4e_E5qaYwUOlJ63XI2OR9ty7Bs)
 
