@@ -29,7 +29,7 @@
 - Use the Unity API
 - Practice C#
 
-Today you will be making this:
+Today you will be making this (click the image for video):
 
 [![YouTube](http://img.youtube.com/vi/kC_W1WBB7uY/0.jpg)](http://www.youtube.com/watch?v=kC_W1WBB7uY)
 
@@ -85,7 +85,7 @@ Transform.Translate
 
 Bonus Task!
 
-Open the Fish scene and try and make this procedural animation using a harmonic function :-)
+Open the Fish scene and try and make this procedural animation using a harmonic function :-) (click the image for video):
 
 [![YouTube](http://img.youtube.com/vi/S8tj3v6dUbU/0.jpg)](http://www.youtube.com/watch?v=S8tj3v6dUbU)
 
