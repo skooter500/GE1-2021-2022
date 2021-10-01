@@ -22,7 +22,6 @@ public class AITank : MonoBehaviour {
             // You can draw gizmos using
             // Gizmos.color = Color.green;
             // Gizmos.DrawWireSphere(pos, 1);
-            }
         }
     }
 
@@ -46,6 +45,5 @@ public class AITank : MonoBehaviour {
         // Put code here to calculate if the player is inside the field of view and in range
         // You can print stuff to the screen using:
         GameManager.Log("Hello from th AI tank");
-        }
     }
 }
