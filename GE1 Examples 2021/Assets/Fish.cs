@@ -22,13 +22,7 @@ public class Fish : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float headAngle = Mathf.Sin(theta) * headAmplitude;
-        float tailAngle = Mathf.Sin(theta) * tailAmplitude;
-
-        head.localRotation = Quaternion.AngleAxis(headAngle, Vector3.forward);
-        tail.localRotation = Quaternion.AngleAxis(tailAngle, Vector3.forward);
-
-        theta += frequency * 2.0f * Mathf.PI * Time.deltaTime;
+        // Your code goes here!
 
     }
 }
