@@ -43,10 +43,7 @@ git checkout -b mylab2
 
 If you are on a lab computer, you will need to clone your forks. I have updated my version of Unity to be the same as the version installed in the labs, so opening the project should be fast now!
 
-Open the scene lab2 to get the starter scene and code for today. You should modify the scripts in the scene so that it does this (click for video):
-
-[![YouTube](http://img.youtube.com/vi/kC_W1WBB7uY/0.jpg)](http://www.youtube.com/watch?v=kC_W1WBB7uY)
-
+Open the scene lab2 to get the starter scene and code for today. 
 
 What is happening:
 - The red tank has a script attached called AITank that has radius and numWaypoints fields that control the generation of waypoints in a circle around it. These waypoints will be stored in a List. (Like an ArrayList in Java). It draws sphere gizmos so you can see where the waypoints will be.
