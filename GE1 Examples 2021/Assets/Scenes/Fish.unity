@@ -497,9 +497,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1b6a12661143ee459dc318150043bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  head: {fileID: 600007856}
-  tail: {fileID: 251647470}
-  speed: 90
+  head: {fileID: 0}
+  tail: {fileID: 0}
+  frequency: 0.5
   headAmplitude: 40
   tailAmplitude: 60
   theta: 0
