@@ -4,6 +4,19 @@ using UnityEngine;
 
 public class Mover : MonoBehaviour
 {
+    private static StringBuilder message = new StringBuilder();
+
+    public Transform target;
+
+    public void OnGUI()
+    {
+        GUI.color = Color.white;
+        GUI.Label(new Rect(0, 0, Screen.width, Screen.height), "" + message);
+        if (Event.current.type == EventType.Repaint)
+        {
+            message.Length = 0;
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -13,7 +26,7 @@ public class Mover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GameManager.Log("Hello");
+        message.Append("Hello");
         
     }
 }
