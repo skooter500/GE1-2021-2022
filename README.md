@@ -18,6 +18,7 @@
 
 ## Week 2 - Trigonometry & Vectors in Unity
 - [Trigonometry Problem Set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
+- [Video of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EdsasiaAjFBFq7ITNYsh1s8B3osZ6kQdNQIu6g55RbGr8g?e=FHReiR)
 
 ## Lab
 
@@ -97,13 +98,12 @@ Quaternion.AngleAxis
 transform.localRotation
 ```
 
-
-
 ## Week 1 - Introduction
 
 ## Lecture
 - [Slides](https://docs.google.com/presentation/d/1cyjd7Nhv0ea-R44LpR6UnuWLC1IJ9OOG/edit?usp=sharing&ouid=112533789876788921065&rtpof=true&sd=true)
 - [Trigonometry Problem Set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
+- [Video of the class - there is no audio for the first class](https://tudublin-my.sharepoint.com/:v:/r/personal/bryan_duggan_tudublin_ie/Documents/Recordings/Game%20Engines%201-20210924_135041-Meeting%20Recording.mp4?csf=1&web=1&e=jRm0Lj)
 
 ### Learning Outcomes
 - Install Unity & git for Windows
