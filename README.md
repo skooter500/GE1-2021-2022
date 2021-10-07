@@ -16,6 +16,11 @@
 * Email: bryan.duggan@tudublin.ie
 * [My website & other ways to contact me](http://bryanduggan.org)
 
+## Week 3 - Vectors
+
+## Lab
+Finish off the lab from last week
+
 ## Week 2 - Trigonometry & Vectors in Unity
 - [Trigonometry Problem Set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
 - [Video of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EdsasiaAjFBFq7ITNYsh1s8B3osZ6kQdNQIu6g55RbGr8g?e=FHReiR)

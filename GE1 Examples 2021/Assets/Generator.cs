@@ -9,7 +9,7 @@ public class Generator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int startRadius = 3;
+        int startRadius = 1;
         for(int j = 0 ; j < loops ; j ++)
         {
             int radius = startRadius + j;
