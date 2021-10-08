@@ -17,6 +17,11 @@
 * [My website & other ways to contact me](http://bryanduggan.org)
 
 ## Week 3 - Vectors
+- [Video 1 of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EU_1ETMkKelKvvcE5yAssewBxefTGyXX4UyXG9trrlBwNA?e=cm9zyI
+)
+- [Video 2 of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EQd2a6piAiBCnTSldzKCNccBIyNlGqcg6rDKwC--BGAukQ?e=HIAag0
+)
+
 - [Vectors in Unity](https://docs.unity3d.com/Manual/VectorCookbook.html)
 
 ## Lab
