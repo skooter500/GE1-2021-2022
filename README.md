@@ -17,6 +17,7 @@
 * [My website & other ways to contact me](http://bryanduggan.org)
 
 ## Week 3 - Vectors
+- [Vectors in Unity](https://docs.unity3d.com/Manual/VectorCookbook.html)
 
 ## Lab
 Finish off the lab from last week
