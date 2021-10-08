@@ -9,6 +9,8 @@ public class Mover : MonoBehaviour
 
     public Transform target;
 
+    public float speed = 5;
+
     public void OnGUI()
     {
         GUI.color = Color.white;
@@ -27,7 +29,18 @@ public class Mover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        message.Append("Hello");
+        float distance = Vector3.Distance(target.position, transform.position);
+        Vector3 toTarget = target.position - transform.position;
+        float distance1 = toTarget.magnitude;
+
+        message.Append("Distance: " + distance + "\n");
+        message.Append("Distance1: " + distance1);
+
+        toTarget = Vector3.Normalize(toTarget);
+        if (distance1 > 0.1f)
+        {        
+            transform.position = transform.position + (toTarget * speed * Time.deltaTime);
+        }
         
     }
 }
