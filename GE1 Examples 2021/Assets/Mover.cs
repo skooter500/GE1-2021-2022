@@ -72,5 +72,10 @@ public class Mover : MonoBehaviour
         float angle1 = Vector3.Angle(toTarget, transform.forward);
 
         float angle3 = Vector3.SignedAngle(toTarget, transform.forward, Vector3.up);
+
+        Vector3 a = new Vector3(7, 8, 9);
+        Vector3 b = new Vector3(3, -1, 9);
+        Vector3 c = b - a;
+        Debug.Log(c);
     }
 }

@@ -14,7 +14,9 @@
 * Email: bryan.duggan@tudublin.ie
 * [My website & other ways to contact me](http://bryanduggan.org)
 
-## Week 4 - Infinite Forms System - enabling & disabling components
+## Week 5 - Infinite Forms System - enabling & disabling components
+
+- [Assignment Submission](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUMTBNQjJBNE1CSzNSTlowS0NUTzNSU0IzUS4u)
 
 ## Lab
 
@@ -45,6 +47,36 @@ Open up the lab4 scene. There is the coloured tank following it's circular path 
         - Enable the RotateMe script
 
 I may have left out some steps, but you can figure out the rest yourself
+
+## Week 4 - Coroutines & Colliders
+
+## Lab
+
+Lets make this:
+
+[![YouTube](http://img.youtube.com/vi/HJP7AO8pCyM/0.jpg)](http://www.youtube.com/watch?v=HJP7AO8pCyM)
+
+Clone the repo for the course and make sure you start from the master branch. Create a branch for todays solution (call it lab4)
+
+What is happening:
+
+- The green tank is the player. The blue tanks are the "enemies"
+- Enemies spawn at a rate of 1 enemy per second
+- Enemies fall from the sky and land on the ground
+- There are a maximum of 5 enemies at any time
+- When the player hits an enemy it "explodes" (all the parts break apart)
+- To implement this you will have to do a few things:
+- Iterate over all the child transforms to get access to the turret using:
+
+    ```foreach (Transform t in this.GetComponentsInChildren<Transform>())
+    ```
+- You could also use ```transform.getChild(0)```
+- Add a rigidbody to the turret
+- Set the useGravity and isKinematic fields on the rigidbody appropriately
+- Add a random velocity 
+- After 4 seconds, the parts sink into the ground. You can disable the collider on and set drag to be 1
+- After seven seconds, it gets removed from the scene
+
 
 
 ## Week 3 - Vectors
